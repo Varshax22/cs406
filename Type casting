@@ -1,0 +1,17 @@
+public class TypeCasting {
+    public static void main(String[] args) {
+        // Implicit casting (automatic type conversion)
+        int myInt = 9; // Corrected variable declaration
+        double myDouble = myInt; // Corrected variable name
+
+        System.out.println("Int value: " + myInt); // Corrected println syntax
+        System.out.println("Converted to double: " + myDouble); // Corrected println syntax
+
+        // Explicit casting (manual type conversion)
+        double anotherDouble = 9.78; // Corrected variable declaration
+        int anotherInt = (int) anotherDouble; // Corrected variable name
+
+        System.out.println("Double value: " + anotherDouble); // Corrected println syntax
+        System.out.println("Converted to int: " + anotherInt); // Corrected println syntax
+    }
+}
